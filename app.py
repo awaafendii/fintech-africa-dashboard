@@ -191,7 +191,7 @@ uploaded = st.sidebar.file_uploader(
 )
 
 if uploaded is None:
-    st.info("👈 Chargez **fintech4africa_dataset.csv** ou **fintech4africa_dataset_nettoye.csv** dans la barre latérale.")
+    st.info("👈 Chargez **votre fichier** dans la barre latérale gauche.")
     st.stop()
 
 import tempfile, os
